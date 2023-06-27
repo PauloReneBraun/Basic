@@ -1,5 +1,5 @@
 let a = 3;
 
-a = 20 ; 
+a = a + 10  ; 
 
 console.log(a);
