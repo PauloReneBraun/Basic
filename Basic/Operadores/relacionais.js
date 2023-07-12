@@ -6,4 +6,11 @@ console.log(8 <= 12);
 console.log(9 == 3);
 console.log(9 != 5);
 
-let
+let a = 7;
+let b = 32;
+
+console.log(a > b);
+console.log(a >= b);
+console.log(a < b);
+console.log(a == b);
+console.log(a != b);
