@@ -8,3 +8,4 @@ console.log(b === c);
 
 console.log(a != b);
 console.log(a !== b);
+console.log(b !== c);
