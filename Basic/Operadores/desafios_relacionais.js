@@ -9,8 +9,8 @@ console.log(a !== b);
 console.log(a + a === b);
 
 
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
+console.log(a > b);
+console.log(a >= b);
+console.log(a == b);
+console.log(a === b);
+console.log(a + a !==b);
