@@ -7,3 +7,5 @@ resultE += HaveMoney && verytangled;
 console.log(resultE);
 
 let resultOU = '#2 - Go to mall?'
+resultOU += sunnyDay || carronthegarrage;
+console.log(resultOU);
