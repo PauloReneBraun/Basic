@@ -18,4 +18,16 @@ function media(n1, n2 , n3) {
     }
 }
 
-console.log();
+function mediaParaStatus(media) {
+    if(media >= 7) {
+        return "Aprovado";
+    } else if(media >= 4) {
+        return "Recuperação";
+    } else {
+        return "Reprovado";
+    }
+}
+
+const mediaFinal = media(nota1, nota2, nota3);
+const statusFinal = mediaParaStatus(mediaFinal);
+console.log(`O resultado final do aluno é ${statusFinal}`);
