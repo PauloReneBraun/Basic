@@ -1,6 +1,6 @@
-function executar(funcao) {
-    if(typeof funcao === "function") {
-        console.log(funcao());
+function executar(param) {
+    if(typeof param === "function") {
+        console.log(param());
     }
 }
 
